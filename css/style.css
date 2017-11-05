@@ -9,6 +9,11 @@ header{
   max-height: 70px;
   justify-content:space-between;
   align-self: center
+
+}
+
+.header {
+  border-bottom: 1px solid black;
 }
 
 .logo {
@@ -16,7 +21,6 @@ header{
   display:flex;
   height: 70px;
   padding-left: 30px;
-  border: 1px solid black;
   width: 70%;
 }
 
@@ -53,7 +57,7 @@ main {
 
 .content {
   display: flex;
-  border: 1px solid black;
+
   margin: 50px 30px;
 
 }
@@ -66,14 +70,18 @@ main {
 .large {
   display: flex;
   flex-basis: 630px;
-  border: 1px solid black;
+
   margin: 10px;
   padding: 10px;
+  flex-direction: column;
+}
+
+.row2-large {
+  display: flex;
 }
 
 .medium {
   display: flex;
-  border: 1px solid black;
   flex-basis: 300px;
   padding: 10px;
   flex-direction: column;
@@ -81,29 +89,56 @@ main {
 
 .small {
   display: flex;
-  border: 1px solid black;
   flex-basis:240px;
   padding: 10px;
   flex-direction: column;
 }
- /*try*/
-.mother span {
-  display: block;
-  border: 1px solid black;
-  width: 100%;
-  justify-content: flex-start;
+
+.h-text {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
-.cats span {
-  display: block;
-  border: 1px solid black;
+.main-image {
+  background-image: url("../images/img-story-main.png");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
   width: 100%;
-  justify-content: flex-start;
 }
-/*end-try*/
+
+.girl-image {
+  background-image: url("../images/img-story-2.png");
+  background-position: center;
+  height: 300px;
+  width: 100%;
+}
+
+.cat-image {
+  background-image: url("../images/img-story-1.png");
+  background-position: center;
+  height: 300px;
+  width: 100%;
+}
+
+.hip-image {
+  background-image: url("../images/img-story-3.png");
+  background-position: center;
+  height: 300px;
+  width: 100%
+}
+
 
 .end-story {
   display: flex;
   justify-content: flex-start;
   border: 2px solid black;
+}
+
+.naration {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
