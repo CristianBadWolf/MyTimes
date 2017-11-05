@@ -34,8 +34,6 @@ header{
 .nav {
   padding: 0px 10px;
   display: flex;
-
-
 }
 
 .nav span {
@@ -48,25 +46,64 @@ header{
 }
 
 /*CONTENT*/
-
-.column {
+main {
   display: flex;
-  margin: 100px;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
   border: 1px solid black;
+  margin: 50px 30px;
+
+}
+.column {
+  display: inline-flex;
+  margin: 20px;
+  justify-content: space-between;
 }
 
-.column span {
+.large {
+  display: flex;
+  flex-basis: 630px;
   border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
 }
 
-.column.large {
-  width: 630px;
+.medium {
+  display: flex;
+  border: 1px solid black;
+  flex-basis: 300px;
+  padding: 10px;
+  flex-direction: column;
 }
 
-.column.medium {
-  width: 300px;
+.small {
+  display: flex;
+  border: 1px solid black;
+  flex-basis:240px;
+  padding: 10px;
+  flex-direction: column;
+}
+ /*try*/
+.mother span {
+  display: block;
+  border: 1px solid black;
+  width: 100%;
+  justify-content: flex-start;
 }
 
-.column.small {
-  width: 240px;
+.cats span {
+  display: block;
+  border: 1px solid black;
+  width: 100%;
+  justify-content: flex-start;
+}
+/*end-try*/
+
+.end-story {
+  display: flex;
+  justify-content: flex-start;
+  border: 2px solid black;
 }
